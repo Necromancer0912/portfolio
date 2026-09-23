@@ -9,6 +9,7 @@ const sans = Geist({ subsets: ["latin"], variable: "--font-geist", display: "swa
 const mono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono", display: "swap" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://hellosayan.vercel.app"),
   title: "Sayan Das — models that listen, packets that arrive",
   description:
     "M.Tech CSE student at IIIT Delhi. Speech and language models, network protocols and retrieval systems.",
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
     title: "Sayan Das — models that listen, packets that arrive",
     description: "Speech and language models, network protocols, retrieval systems.",
     type: "website",
+    url: "/",
   },
 };
 
